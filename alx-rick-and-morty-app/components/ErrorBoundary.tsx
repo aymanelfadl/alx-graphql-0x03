@@ -1,10 +1,13 @@
+import React, { ReactNode } from "react";
+
+
 interface State {
     hasError: boolean;
-  }
+}
   
-  interface ErrorBoundaryProps {
+interface ErrorBoundaryProps {
     children: ReactNode;
-  }
+}
   
   
   class ErrorBoundary extends React.Component<ErrorBoundaryProps , State> {
